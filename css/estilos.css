@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, monospace;
+}
+
+nav {
+  background-color:#e5e76e;
+}
+
+.tamanhoimg  {
+height: 210px;
+}
+
+.tamanhoimg1  {
+  height: 400px;
+  }
+
+  .preço {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+  }
+
+  .center {
+    text-align: center;
+  }
+  
+  .compra li a{
+    background-color: rgb(31, 214, 40); 
+    color: black;
+    padding: 3px 13px;
+    border: 4px solid transparent;
+  }
+  
+  .compra li{
+    float: none;
+    display: flex;
+  }
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  width: 1140px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+main button {
+  background-color: rgb(177, 230, 164);
+  padding: 4px 10px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-size: larger;
+  text-transform: uppercase;
+  width: 20%;
+  margin-top: 15px;
+  margin-left: 230px;
+}
+
+button a{
+  color: rgb(0, 0, 0);
+}
+
+button:hover{
+  background-color: pink;
+  color: rgb(241, 250, 246);
+  border: 4px solid rgb(255, 255, 255);
+}
+
+nav {
+  width: 100%;
+  float: left;
+}
+
+nav h1 img {
+  width: 100px;
+}
+
+h1 {
+  float: left;
+}
+
+nav ul  {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+  padding-right: 20px;
+  padding: 35px 15px;
+  float: left;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul li a {
+  background-color: rgb(0, 0, 0);
+  color: azure;
+  padding: 2px 28px;
+  border: 4px solid transparent;
+}
+
+ul li a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 4px solid rgb(79, 209, 96);
+}
+
+header {
+  background-color: #ffffff;
+}
+
+header img {
+  width: 100%;
+  border: 4px solid black;
+  object-fit: cover;
+  object-position:top;
+  height: 150px;
+}
+
+header.produtos{
+  height: 150px;
+  object-position: top;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {width: 8,33%;}
+.col-2 {width: 16,66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33,33%;}
+.col-5 {width: 41,66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58,33%;}
+.col-8 {width: 66,66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83,33%;}
+.col-11 {width: 91,66%;}
+.col-12 {width: 100%;}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  background-color: rgb(177, 230, 164);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 50px;
+}
+
+main img {
+  border: 2px solid black;
+  
+}
+
+.center {
+  text-align: center;
+}
+
+.rodape-prin
+{
+    background-color:  rgb(0, 0, 0);       
+    padding: 30px;         
+    color: rgb(250,255,250);
+    font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif, sans-serif;
+}
+
+ .imgdelivery{
+  object-position:center;
+ }
+
+.icones li{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea, select {
+  width: 100%;
+  padding: 2px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin: 3px 0;
+  resize: none;
+  background-color: white;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background-color: rgb(158, 243, 172);
+}
+
+
+
+

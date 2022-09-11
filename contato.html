@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coxinhas Chef-Contatos</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <h1>
+        <a href="index.html">
+          <img src="img/Prova_Erikth.svg" alt="Meu Logotipo" />
+        </a>
+      </h1>
+      <ul>
+        <li>
+          <a href="index.html">início</a>
+        </li>
+        <li>
+          <a href="produtos.html">Produtos</a>
+        </li>
+        <li>
+          <a href="servicos.html">serviços</a>
+        </li>
+        <li>
+          <a href="contato.html">contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container clearfix">
+      <img src="img/bannercntt.png" alt="Gumbaallllll">
+    </div>
+  </header>
+
+  <main>
+    <div class="container clearfix">
+      <div class="col-12">
+        <form id="form_contato">
+          <label for="nome">Informe seu Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Informe seu Nome" required="true">
+
+          <label for="nome">Informe seu Número</label>
+          <input type="text" name="numero" id="numero" placeholder="Informe seu número" required="true">
+
+          <label for="email">Informe seu E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Informe seu E-mail" required="true">
+
+          <label for="Informe sua Turma"></label>
+          <div class="form-group">
+            <input type="radio" name="turma" id="turma_1A" value="1A" checked>
+            <label for="turma_1A">1A</label>
+            <input type="radio" name="turma" id="turma_1B" value="1B">
+            <label for="turma_1B">1B</label>
+          </div>
+
+          <label for="nome">Motivo</label>
+          <select name="motivo" id="motivo" required>
+            <option value="">Selecione o Motivo</option>
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="problema">Relatar Problema</option>
+            <option value="outro">Outro</option>
+          </select>
+
+          <label for="mensagem">Informe sua Mensagem</label>
+          <textarea name="mensagem" id="mensagem" cols="10" rows="5"></textarea>
+
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+        (function () {
+          emailjs.init("0nNmk3EJ_eD5A1dHD");
+        })();
+      </script>
+
+  </main>
+
+</div>
+</div>
+</main>
+</body>
+<footer>
+<div class="container clearfix center">
+  <div class="col-6">
+    <h2>Redes Sociais:</h2>
+    <ul>
+      <a href="https://www.instagram.com/"><li>Instagram</li></a>
+      <a href="https://pt-br.facebook.com/"><li>Facebook</li></a>
+      <a href="https://twitter.com/?lang=pt-br"><li>Twitter</li></a>
+    </ul>
+  </div>
+
+  <footer> 
+    <footer class="rodape-prin">
+      <ul class="icones">
+          <li><a href="https://github.com/thomazierik" target="_blank"><img src="img/github.png" alt="icone GitHub"></a></li>
+      </ul>
+      &copy; Erik Rafael Thomazi  
+      </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
